@@ -46,7 +46,7 @@ const GameUI = ({ gameStarted }: any) => {
                   <span className="w-6 h-6 rounded-lg bg-cyan-500 text-black text-[10px] font-black flex items-center justify-center uppercase">
                     {label}
                   </span>
-                  <span className="text-white/80 text-xs font-bold truncate">
+                  <span className="text-white/80 text-xs font-bold">
                     {(currentQuestion as any)[label]}
                   </span>
                 </div>
